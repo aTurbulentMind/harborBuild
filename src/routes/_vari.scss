@@ -1,0 +1,40 @@
+//colors
+
+$textColorMain: #fdfdfa;
+$backgroundMain:#020407;
+$backgroundSecond:#0c1222;
+$backgroundThird: #044398;
+$extra:#fab304;
+$highlight:#3fdbe0;
+$gradient:linear-gradient(90deg, rgb(14, 14, 5) 0%, rgb(19, 48, 51) 35%, rgb(62, 35, 92) 100%);
+
+
+$transitSpeed: 0.3s;
+
+//font stack
+$mainFont: 'Aclonica', sans-serif;
+
+
+// mixins
+
+@mixin glassBack() {
+    background: #0d122225;
+    box-shadow: 0 3px 12px 3px $backgroundSecond;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    border: 1px solid #0d132363;
+}
+
+
+
+// set txt color
+//@function set-text-color($color) {
+//    @if(lightness($color) > 70) {
+//        @return #333;
+//    }
+//
+//    @else {
+//        @return $textColorMain;
+//    }
+//}
