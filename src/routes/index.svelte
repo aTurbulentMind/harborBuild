@@ -86,7 +86,7 @@
 }
 
 .art-banner-bg {
-    background-image: url(img/harb.jpg);
+    background-image: url(/img/harb.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
