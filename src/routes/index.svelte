@@ -26,6 +26,8 @@
   
 </div>
 
+    <h1>You are about to have your life changed.</h1>
+
     <iframe class="vid" width="560" height="315" src="https://www.youtube.com/embed/2yazV-xgZBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <h1>Words and stuff</h1>
@@ -120,7 +122,7 @@
     grid-column: 4;
     grid-row: 4;
     background-color: $backgroundSecond;
-    width: 10vw;
+    width: 5vw;
     height: fit-content;
     border-radius: 50px;
     z-index: 3;
@@ -155,8 +157,19 @@
         .coaButt2 {
             grid-column: 5;
             grid-row: 4;
+            width: 10vw;
+
+            a{
+                padding: 2%;
+            }
         }
 
+
+      }
+
+       @media (max-width: 991px) {
+          
+        
 
       }
 
